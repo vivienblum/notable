@@ -1,0 +1,27 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "Application to manage note",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivienblum/notable.git"
+  },
+  "author": "Vivien Blum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivienblum/notable/issues"
+  },
+  "homepage": "https://github.com/vivienblum/notable#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.27"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
